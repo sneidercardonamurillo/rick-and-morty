@@ -1,0 +1,39 @@
+/* src/Locations.css */
+.locations-container {
+    text-align: center; /* Centrar texto en el contenedor */
+}
+
+.locations-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos en el contenedor */
+    margin: 0 -10px; /* Espaciado negativo para compensar el padding de los hijos */
+}
+
+.location-card {
+    background-color: #f9f9f9; /* Color de fondo para las tarjetas */
+    border: 1px solid #ddd; /* Bordes de las tarjetas */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 10px; /* Espaciado entre las tarjetas */
+    padding: 15px; /* Espaciado interno de las tarjetas */
+    width: 200px; /* Ancho fijo para cada tarjeta */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para las tarjetas */
+    transition: transform 0.2s; /* Transición para efectos de hover */
+}
+
+.location-card:hover {
+    transform: scale(1.05); /* Efecto de hover para agrandar la tarjeta */
+}
+
+.location-image {
+    width: 100%; /* La imagen ocupa el 100% del ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 4px; /* Bordes redondeados para la imagen */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.loading {
+    text-align: center; /* Centrar el texto de carga */
+    font-size: 24px; /* Tamaño de la fuente */
+    margin-top: 20px; /* Espaciado superior */
+}

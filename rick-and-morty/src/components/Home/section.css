@@ -1,0 +1,43 @@
+.section {
+    text-align: center;
+    font-size: 16px; /* Tamaño de fuente normal */
+    font-weight: normal; /* Peso normal */
+    font-style: normal; /* Estilo normal */
+    transition: all 0.3s ease; /* Suaviza la transición */
+}
+
+.section:hover {
+    color: violet; /* Cambia el color del texto a violeta */
+    font-size: 20px; /* Aumenta el tamaño de la fuente */
+    font-weight: bold; /* Establece el texto en negrita */
+    font-style: italic; /* Cambia el estilo a cursiva */
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1; /* Color de fondo */
+    border-top: 1px solid #ccc; /* Línea superior */
+  }
+  
+  /* section.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Esto empuja el footer hacia abajo */
+    min-height: 100vh; /* Asegura que ocupe al menos toda la altura de la ventana */
+  }
+  .footer {
+    text-align: center;
+    margin-top: 20px; /* Mantén el margen superior */
+    padding: 5px; /* Cambiado de 10px a 5px */
+    background-color: #f1f1f1; /* Color de fondo */
+    border-top: 1px solid #ccc; /* Línea superior */
+  }
+  
+  

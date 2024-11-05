@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* src/App.css */
+nav {
+  text-align: center;
+  background-color: #282c34;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.sylo{
+  text-align: center;
+}/* src/App.css */
+
+/* Estilos para el menú de navegación */
+nav {
+  display: flex; /* Utiliza flexbox para el layout */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  margin-bottom: 20px; /* Espaciado inferior del menú */
+}
+
+nav a {
+  margin: 0 15px; /* Espaciado lateral entre los enlaces */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: white; /* Color del texto de los enlaces */
+  font-weight: bold; /* Negrita para los enlaces */
+  transition: color 0.3s; /* Añade una transición suave para cambios de color */
+}
+
+/* Efecto hover para los enlaces */
+nav a:hover {
+  color: #007bff; /* Cambia el color cuando el mouse está sobre el enlace */
+}
+/* src/App.css */
+
+/* Contenedor para el input de búsqueda */
+.search-container {
+  display: flex; /* Usamos flexbox para centrar el input */
+  justify-content: center; /* Centra el input horizontalmente */
+  margin-bottom: 20px; /* Espaciado inferior del buscador */
+}
+
+/* Estilo para el input de búsqueda */
+.search-input {
+  width: 300px; /* Ancho fijo para el buscador */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de la fuente */
+}
+
+/* Estilo para centrar las tarjetas */
+.characters-grid {
+  display: flex; /* Usamos flexbox para el layout de las tarjetas */
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+}
+
+/* Estilo para cada tarjeta de personaje */
+.character-card {
+  background-color: #fff; /* Color de fondo blanco */
+  border: 1px solid #ccc; /* Borde gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 15px; /* Espaciado interno */
+  margin: 10px; /* Espaciado externo */
+  text-align: center; /* Centra el contenido */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el tamaño y sombra */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Efecto hover para las tarjetas de personajes */
+.character-card:hover {
+    transform: translateY(-5px); /* Levanta la tarjeta al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta la sombra en hover */
+    background-color: rgba(63, 236, 11, 0.9); /* Color de fondo ligeramente más claro */
+}
+
+/* Estilo para las imágenes dentro de las tarjetas */
+.character-card img {
+  max-width: 100%; /* Asegura que la imagen no se salga de la tarjeta */
+  border-radius: 5px; /* Bordes redondeados para la imagen */
+}
+/* src/App.css */
+
+/* Estilo para el h1 */
+h1 {
+  text-align: center; /* Centra el texto */
+  color: #333; /* Color del texto por defecto */
+  transition: color 0.3s ease; /* Añade una transición suave para el cambio de color */
+}
+
+/* Efecto hover para el h1 */
+h1:hover {
+  background: linear-gradient(to right, purple, violet); /* Gradiente de color */
+  -webkit-background-clip: text; /* Clip del fondo para aplicar solo al texto */
+  -webkit-text-fill-color: transparent; /* Hace que el color de texto sea transparente para mostrar el fondo */
+}
